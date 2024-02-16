@@ -1,0 +1,52 @@
+fr@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap') ;
+
+body {
+    font-family: "Barriecito", system-ui;
+    background-color: rgb(194, 194, 194);
+}
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;
+    margin: 50px auto;
+    gap: .3rem;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #6286a3;
+    border : 2px solid #6286a3;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    border-radius: 5px;
+}
+
+.game--status {
+    text-align: center;
+}
+
+button {
+    border: none;
+font-family: "Barriecito", system-ui;
+background-color:#6286a3; 
+color: white;
+font-size: 1.2rem;
+border-radius: 5px;
+cursor: pointer;
+box-shadow:1px 1px 1px 0.5px #687d8f;
+    
+}
+
+button:hover {
+    background-color: white;
+    color: #6286a3;
+    box-shadow:1px 1px 1px 0.5px #e5ebf0; 
+}
+
